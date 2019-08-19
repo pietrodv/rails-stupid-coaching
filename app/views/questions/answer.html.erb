@@ -1,0 +1,17 @@
+<div class="style">
+  <div class="line"></div>
+  <div class="text">
+    <h2><%= @question %></h2>
+    <p>-You</p>
+  </div>
+</div>
+<br>
+<div class="style">
+  <div class="line"></div>
+  <div class="text yellow">
+    <h2><strong><%= @answer %></strong></h2>
+    <p>-Your coach</p>
+  </div>
+</div>
+<br>
+<%= link_to "Ask a new question", ask_path %>
